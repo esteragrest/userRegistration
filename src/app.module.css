@@ -1,0 +1,65 @@
+.app {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	height: 100vh;
+	background-image: url(../img/backgroundimage.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.app form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 500px;
+	height: 400px;
+	background-color: rgba(255, 255, 255, 0.2);
+	border-radius: 15px;
+	backdrop-filter: blur(15px);
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+}
+
+.app form input {
+	padding: 12px;
+	width: 250px;
+	margin: 5px;
+	border: none;
+	border-radius: 20px;
+	background-color: rgba(236, 236, 236, 0.8);
+}
+
+.app form input:hover {
+	border: 2px solid #ff7300;
+}
+
+.app button {
+	padding: 10px 15px;
+	border: none;
+	border-radius: 20px;
+	margin: 10px;
+	background-color: #9b0c0a;
+	color: #fff;
+}
+
+.app button:hover {
+	background-color: #650a09;
+}
+
+.app button:focus {
+	background-color: #cd1e1b;
+}
+
+.app button:disabled {
+	background-color: #363636;
+}
+
+.validationError {
+	color: #ff0000;
+	width: 80%;
+	text-align: center;
+}
